@@ -1,0 +1,92 @@
+Sure, here is a README file for the SAAS (Student’s College Accommodation System) web application:
+
+---
+
+# Student’s College Accommodation System
+
+## WEB PROGRAMMING SECV1223
+**Section**: 07
+
+### Group Members:
+- **Hassan Mustafa** - Matric No: A20EC4025
+- **Faris Ismail** - Matric No: A20EC4018
+- **Musab Mudathir** - Matric No: A20EC4077
+- **Fuad Jama Abdillahi** - Matric No: A20EC4021
+
+### Lecturer:
+**Dr. Nur Zuraifah Syazrah Binti Othman**
+
+---
+
+## Table of Contents
+1. [Login/Landing Page](#1---loginlanding-page)
+2. [Name of Configuration File](#2---name-of-configuration-file)
+3. [Name of Database](#3---name-of-database)
+4. [Login Details](#4---login-details)
+5. [Highlight and Description of Added Criteria](#5---highlight-and-description-of-added-criteria)
+    - [Implementation of Session's Use](#51---implementation-of-sessions-use)
+    - [Implementation of Cookies](#52---implementation-of-cookies)
+    - [Implementation of User Input Validation](#53---implementation-of-user-input-validation)
+    - [Implementation of Dynamic HTML through JavaScript (DOM)](#54---implementation-of-dynamic-html-through-javascript-dom)
+    - [Implementation of Clean, Consistent, and Attractive Presentation](#55---implementation-of-clean-consistent-and-attractive-presentation)
+
+---
+
+## 1 - Login/Landing Page
+- **Name of the login/landing file**: `index.php`
+
+## 2 - Name of Configuration File
+- **Name of the configuration file**: `config.php`
+
+## 3 - Name of Database
+- **Name of the database**: `accommodationdatabase`
+
+## 4 - Login Details
+**User Table:**
+
+| Username | Password | Level |
+|----------|----------|-------|
+| admin    | admin    | 1     |
+| manager  | manager  | 2     |
+| student  | student  | 3     |
+
+## 5 - Highlight and Description of Added Criteria
+
+### 5.1 - Implementation of Session's Use
+A session allows data to be shared across various pages of the same website, assisting in maintaining state. This tells the server that all of the requests are from the same user, allowing the website to display user-specific information and preferences. The `session_start()` method must be called before any use of the session variables in the pages. Otherwise, we won't be able to access the variables and their values during the session.
+
+- **To begin a session**: `session_start()` is used. After this, we set a few session variables with database-retrieved values. This makes session data shared across several pages on the server.
+- **File**: `check_login.php`
+
+### 5.2 - Implementation of Cookies
+To identify a user, a cookie is frequently utilized. On the user's computer, the server places a little file known as a cookie. The cookie will be sent each time the same computer uses a browser to request a website.
+
+- **Usage**: We set the username of the user in a cookie and displayed the type of user on the main/dashboard page.
+- **Files**: `check_login.php`, `main.php`
+
+### 5.3 - Implementation of User Input Validation
+In our project, we utilized JavaScript to validate user input. For instance, the login page, the accommodation form, and the search student and manager forms. The JavaScript code validates the user input when a user enters data or leaves blanks on specific sites.
+
+- **Implementation**: Validation on the accommodation application form where the student enters his name, IC, and matric. If any fields are empty, an alert notification will appear.
+- **Files**: `javascript.js`, `accommodation_application_form.php`
+
+### 5.4 - Implementation of Dynamic HTML through JavaScript (DOM)
+DOM (Document Object Model) is a programming interface that lets us add, alter, or delete components from the page. To make our page more dynamic, we can also add events to these elements.
+
+- **Example**: On the login page, if a user clicks login without entering the required data, that input box will be focused using JavaScript to highlight that specific input box.
+- **Files**: `javascript.js`
+
+### 5.5 - Implementation of Clean, Consistent, and Attractive Presentation
+The cornerstone of a great website is appealing and straightforward HTML and CSS. Consistent, clear, and neat HTML and CSS code is easier for others to read and understand. Several criteria were observed to maintain clean, unified, and attractive CSS.
+
+- **Design**: The name of the system is shown on all pages throughout the system, with a grey and gold theme, the background color grey, and all fonts and buttons gold. The format of the tables on multiple pages is consistent, with the table header in a rounded golden box and table rows with no borders.
+  
+### Figures:
+- **Figure 1**: Login Page
+- **Figure 2**: Dashboard
+- **Figure 3**: Manage Accommodation Applications
+- **Figure 4**: Student Accommodation Application Form
+
+---
+
+This README provides a comprehensive guide for understanding the structure and implementation details of the Student’s College Accommodation System.

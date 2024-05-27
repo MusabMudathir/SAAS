@@ -2,7 +2,7 @@
 
 ---
 
-# Student’s College Accommodation System
+# Student’s Accommodation Application System
 
 
 

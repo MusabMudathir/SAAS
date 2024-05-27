@@ -1,36 +1,10 @@
-Sure, here’s a more conversational and friendly README file for the Student’s College Accommodation System:
+
 
 ---
 
 # Student’s College Accommodation System
 
-## WEB PROGRAMMING SECV1223
-**Section**: 07
 
-### Group Members:
-- **Hassan Mustafa** - A20EC4025
-- **Faris Ismail** - A20EC4018
-- **Musab Mudathir** - A20EC4077
-- **Fuad Jama Abdillahi** - A20EC4021
-
-### Lecturer:
-**Dr. Nur Zuraifah Syazrah Binti Othman**
-
----
-
-## Table of Contents
-1. [Login/Landing Page](#1---loginlanding-page)
-2. [Configuration File](#2---configuration-file)
-3. [Database Name](#3---database-name)
-4. [Login Details](#4---login-details)
-5. [Features and Descriptions](#5---features-and-descriptions)
-    - [Session Management](#51---session-management)
-    - [Cookie Usage](#52---cookie-usage)
-    - [User Input Validation](#53---user-input-validation)
-    - [Dynamic HTML with JavaScript (DOM)](#54---dynamic-html-with-javascript-dom)
-    - [Clean and Attractive Presentation](#55---clean-and-attractive-presentation)
-
----
 
 ## 1 - Login/Landing Page
 - **File name**: `index.php`
@@ -77,12 +51,7 @@ We aim to make our site visually appealing and easy to navigate. We use a consis
 
 - **Design elements**: The system name is displayed on all pages, tables have a consistent format with a stylish header, and the overall design is neat and attractive.
 
-### Visual Examples:
-- **Figure 1**: Login Page
-- **Figure 2**: Dashboard
-- **Figure 3**: Manage Accommodation Applications
-- **Figure 4**: Student Accommodation Application Form
 
 ---
 
-This README provides an overview of the Student’s College Accommodation System, including the main features and how they are implemented. We hope this makes it easier for you to understand and navigate through our project!
+
